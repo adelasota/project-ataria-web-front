@@ -2,6 +2,7 @@
   "name": "anuska-capstone-react-web-atari",
   "version": "1.0.0",
   "description": "Basic project Capstone built in React",
+  "engines": {"node": "16.x"},
   "scripts": {
     "preinstall": "npm set audit false",
     "start": "webpack-dev-server --config webpack/dev.config.js --watch",
