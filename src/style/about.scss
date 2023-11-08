@@ -1,0 +1,64 @@
+@import "./media-queries";
+
+
+
+.about-wrapper {
+    .retrato {
+        width: 100%;
+    }
+}
+
+.about-content {
+    margin-top: 75px;
+    margin-bottom: 75px;
+    font-weight: 300;
+
+    @include bp(mobile) {
+        margin-bottom: 40px;
+         
+    }
+}
+
+
+.about-galeria {
+    display: flex;
+    justify-content:space-between;
+    margin-top: 60px;
+
+    @include bp(mobile) {
+        flex-direction: column; 
+        justify-content: center;
+        margin-top: 0px;
+         
+    }
+
+  
+
+    img {
+      height: 425px;
+    
+
+        @include bp(mobile) {
+            height: 350px;
+            margin-top: 50px;
+        
+         
+        }
+
+        @include bp(tablet) {
+            height: 225px;
+          
+        }
+
+        @include bp(desktop) {
+            height: 300px;
+         
+        }
+
+        @include bp(desktopbig) {
+            height: 350px;
+        
+          
+        }
+    }   
+}

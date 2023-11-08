@@ -1,0 +1,61 @@
+.contact-wrapper {
+    text-align: center;
+    
+
+    p{
+        font-size: 36px;
+        font-weight: 400;
+       
+        margin-top: 50px;
+    }
+
+        .puerta img {
+             height: 950px;
+
+            @include bp(desktopbig) {
+                height: 900px;
+            }
+  
+             @include bp(tablet) {
+                height: 800px;
+            }
+
+            @include bp(mobile) {
+                height: 800px;
+            }
+            @include bp(desktop) {
+                height: 800px;
+            }
+
+    }
+
+    .location {
+        a{
+            font-size: 50px;
+            color: black;
+
+            &:hover {
+                color: $nudos;
+            }
+        }
+    }
+
+    ul{
+        padding-left: 0px;
+    }
+
+    li {
+        list-style: none;
+        font-weight: 400;
+        font-size: 25px;
+
+        a {
+            text-decoration: none;
+            color: black;
+
+            &:hover {
+            color: $nudos;
+            }
+        } 
+    }
+}
