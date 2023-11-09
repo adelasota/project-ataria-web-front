@@ -21,7 +21,7 @@
             }
 
             @include bp(mobile) {
-                height: 800px;
+                height: 600px;
             }
             @include bp(desktop) {
                 height: 800px;
